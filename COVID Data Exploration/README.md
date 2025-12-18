@@ -1,7 +1,19 @@
-This project focused on a public dataset from: https://ourworldindata.org/covid-deaths.
+## COVID Data Exploration
 
-The data was loaded into a local Microsoft SQL development database and manipulated with SQL Queries to pull the required information for use in Tableau Public via multiple Excel files.
+### Overview
 
-The Excel files were adjusted by removing NULL values and replacing them with 0 to avoid conflicts in Tableau Public. Furthermore, Tableau Table 4.xlsx had the date column adjusted to display as a short date after it was noticed that the values were not displaying correctly.
+This project aimed to develop a basic understanding of a data analysis pipeline. The project involved pulling data from Microsoft SQL Server using SQL Server Management Studio and exporting it for use in simple Tableau visualizations. The project was focused more on the overall process than on the SQL queries and visualizations used. The end result was a basic Tableau dashboard, which can be found at this [link](https://public.tableau.com/views/COVIDDataExploration_17660107005600/COVIDDataExploration?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
-After exporting the data required, visualizations were made in Tableau Public, which resulted in the dashboard at this [link](https://public.tableau.com/views/COVIDDataExploration_17660107005600/COVIDDataExploration?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+### Steps
+
+- Imported the dataset into a local Microsoft SQL Server Development Environment.
+- Performed basic queries using SQL Server Management Studio to prepare the required data for visualizations.
+- Extracted the data and performed final adjustments in Excel, such as converting NULL values to 0.
+- Created basic visualizations in Tableau and created a final dashboard for publication.
+
+### Resources
+
+- [Our World in Data - Coronavirus (COVID-19) Deaths Dataset](https://ourworldindata.org/covid-deaths)
+- [Alex the Analyst - Data Analyst Portfolio Project | SQL Data Exploration | Project 1/4](https://youtu.be/qfyynHBFOsM?si=hs-lmEWeIefGbsRy)
+- [Alex the Analyst - Data Analyst Portfolio Project | Tableau Visualization | Project 2/4](https://youtu.be/QILNlRvJlfQ?si=15wzN5-AlZmghIpg)
+- [Alex the Analyst - SQL Queries for Tableau Project](https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/Tableau%20Portfolio%20Project%20SQL%20Queries.sql)
