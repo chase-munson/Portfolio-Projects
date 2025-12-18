@@ -17,3 +17,9 @@ This project aimed to develop a basic understanding of a data analysis pipeline.
 - [Alex the Analyst - Data Analyst Portfolio Project | SQL Data Exploration | Project 1/4](https://youtu.be/qfyynHBFOsM?si=hs-lmEWeIefGbsRy)
 - [Alex the Analyst - Data Analyst Portfolio Project | Tableau Visualization | Project 2/4](https://youtu.be/QILNlRvJlfQ?si=15wzN5-AlZmghIpg)
 - [Alex the Analyst - SQL Queries for Tableau Project](https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/Tableau%20Portfolio%20Project%20SQL%20Queries.sql)
+
+### Result
+
+![COVID Data Exploration Final Dashboard Result](https://github.com/chase-munson/Portfolio-Projects/blob/main/COVID%20Data%20Exploration/Tableau%20Tables/COVID%20Data%20Exploration.png)
+
+
