@@ -5,6 +5,14 @@ Welcome to my personal portfolio. This repository is a curated collection of my 
 
 ---
 
+## 📂 Featured Portfolio Projects
+
+### 📊 [Domestic Flight Delay Analysis](https://github.com/chase-munson/Portfolio-Projects/tree/main/B.S.%20Capstone%20Project)
+**A deep dive into 30 million records to identify weather-driven trends.**
+* **Core Problem:** Investigating whether shifting global weather patterns are statistically increasing delays in the U.S. domestic flight market.
+* **Technical Highlights:** Performed comprehensive data cleaning and Pearson Correlation testing on a massive 30,132,672-row dataset.
+* **Outcome:** Proved a statistically significant positive correlation between time and weather delays ($p < 0.05$), establishing a data-backed framework for predictive flight scheduling.
+
 ## 🛠 Technical Stack
 
 | Category | Proficiency |
