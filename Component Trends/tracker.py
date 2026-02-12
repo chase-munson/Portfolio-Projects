@@ -27,8 +27,8 @@ def run_tracker():
             # Extract prices using Regex
             matches = re.findall(r'\$\s?(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)', soup.get_text())
             
-            # Dynamic Filter: RAM is usually $50-$500, but 2TB SSDs can reach $600+
-            price_limit = 1000 if "SSD" in label else 500
+            # Dynamic Filter: RAM prices are expected to keep climbing, SSDs to a lesser extent.
+            price_limit = 600 if "SSD" in label else 1000
             prices = [float(m.replace(',', '')) for m in matches if 50 < float(m.replace(',', '')) < price_limit]
 
             if prices:
