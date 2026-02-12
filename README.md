@@ -1,7 +1,7 @@
 # Hi, I'm Chase👋
 ### Data Analyst | Analytical Problem Solver | Technical Storyteller
 
-Welcome to my personal portfolio. This repository is a curated collection of my work in data analytics, featuring projects that range from high-volume statistical research to specialized machine learning applications. I focus on building scalable, data-driven solutions that translate complex variables into clear, actionable business narratives.
+Welcome to my personal portfolio. This repository is a curated collection of my work in data analytics, featuring varied projects that I have chosen to undertake in my spare time. I focus on building data-driven solutions that translate complex variables into clear, actionable business narratives.
 
 ---
 
