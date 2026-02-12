@@ -5,6 +5,23 @@ Welcome to my personal portfolio. This repository is a curated collection of my 
 
 ---
 
+## 📂 Featured Portfolio Projects
+
+### 📊 [Domestic Flight Delay Analysis](https://github.com/chase-munson/Portfolio-Projects/tree/main/B.S.%20Capstone%20Project)
+**A deep dive into 30 million records to identify weather-driven trends.**
+* **Core Problem:** Investigating whether shifting global weather patterns are statistically increasing delays in the U.S. domestic flight market.
+* **Technical Highlights:** Performed comprehensive data cleaning and Pearson Correlation testing on a massive 30,132,672-row dataset.
+* **Outcome:** Proved a statistically significant positive correlation between time and weather delays ($p < 0.05$), establishing a data-backed framework for predictive flight scheduling.
+
+### 🦠 [COVID-19 Data Exploration & Pipeline](https://github.com/chase-munson/Portfolio-Projects/tree/main/COVID%20Data%20Exploration)
+**An end-to-end study of the data analysis pipeline from SQL to Tableau.**
+* **The Challenge:** Demonstrating the technical workflow of migrating raw data from a relational database into a functional business intelligence tool.
+* **Technical Highlights:** Managed data ingestion into MS SQL Server, executed transformation queries in SSMS, and performed final data auditing in Excel.
+* **Outcome:** Developed an interactive Tableau dashboard providing a high-level view of global infection trends and mortality rates.
+* **Result:** [View Interactive Tableau Dashboard](https://public.tableau.com/views/COVIDDataExploration_17660107005600/COVIDDataExploration?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+---
+
 ## 🛠 Technical Stack
 
 | Category | Proficiency |
