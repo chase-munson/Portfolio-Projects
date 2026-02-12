@@ -26,11 +26,5 @@ My technical foundation was established through a **B.S. in Data Analytics** fro
 
 ---
 
-## 📊 Impact at a Glance
-![Chase's GitHub stats](https://github-readme-stats.vercel.app/api?username=chase-munson&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chase-munson&layout=compact&theme=radical)
-
----
-
 ## 📫 Let's Connect
 * **LinkedIn:** https://www.linkedin.com/in/chase-munson/
