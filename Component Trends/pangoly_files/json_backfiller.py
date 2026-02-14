@@ -39,10 +39,10 @@ def process_history(json_filename, component_label):
             })
         return rows
     except FileNotFoundError:
-        print(f"❌ Error: {json_filename} not found.")
+        print(f"Error: {json_filename} not found.")
         return []
     except Exception as e:
-        print(f"❌ Error parsing {json_filename}: {e}")
+        print(f"Error parsing {json_filename}: {e}")
         return []
 
 if __name__ == "__main__":
@@ -59,10 +59,10 @@ if __name__ == "__main__":
         df = df.sort_values(by=["Component", "Date"]).reset_index(drop=True)
         
         # Save the final file
-        df.to_csv("ebay_hardware_data.csv", index=False)
+        df.to_csv("pangoly_historical_data.csv", index=False)
         print("\n" + "="*30)
-        print("✅ SUCCESS: 'ebay_hardware_data.csv' created.")
+        print("✅ SUCCESS: File created.")
         print(f"Total historical data points: {len(df)}")
         print("="*30)
     else:
-        print("❌ No data was processed. Check your .json files.")
+        print("No data was processed. Check your .json files.")
