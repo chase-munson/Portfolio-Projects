@@ -1,4 +1,4 @@
-# Hi, I'm Chase👋
+# Hi, I'm Chase!
 ### Data Analyst | Analytical Problem Solver | Technical Storyteller
 
 Welcome to my personal portfolio. This repository is a curated collection of my work in data analytics, featuring varied projects that I have chosen to undertake in my spare time. I focus on building data-driven solutions that translate complex variables into clear, actionable business narratives.
@@ -10,7 +10,7 @@ Welcome to my personal portfolio. This repository is a curated collection of my 
 ### 📊 [Domestic Flight Delay Analysis](https://github.com/chase-munson/Portfolio-Projects/tree/main/B.S.%20Capstone%20Project)
 **A deep dive into 30 million records to identify weather-driven trends.**
 * **Core Problem:** Investigating whether shifting global weather patterns are statistically increasing delays in the U.S. domestic flight market.
-* **Technical Highlights:** Performed comprehensive data cleaning and Pearson Correlation testing on a massive 30,132,672-row dataset.
+* **Technical Highlights:** Performed comprehensive data cleaning and Pearson Correlation testing on a large 30m row dataset.
 * **Outcome:** Proved a statistically significant positive correlation between time and weather delays ($p < 0.05$), establishing a data-backed framework for predictive flight scheduling.
 
 ### 🦠 [COVID-19 Data Exploration & Pipeline](https://github.com/chase-munson/Portfolio-Projects/tree/main/COVID%20Data%20Exploration)
