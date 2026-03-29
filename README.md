@@ -1,47 +1,17 @@
-# Hi, I'm Chase!
-### Data Analyst | Analytical Problem Solver | Technical Storyteller
+# Chase Munson — Portfolio Projects
+> A curated collection of personal data analytics projects.
 
-Welcome to my personal portfolio. This repository is a curated collection of my work in data analytics, featuring varied projects that I have chosen to undertake in my spare time. I focus on building data-driven solutions that translate complex variables into clear, actionable business narratives.
+## Description
+This repository showcases hands-on work in data analysis, statistical modeling, and business intelligence. Each project folder contains its own README with details on methodology and tools used.
 
----
+## Projects
+- [Domestic Flight Delay Analysis](./B.S.%20Capstone%20Project/) — Statistical analysis of weather-related U.S. flight delays
+- [COVID-19 Data Exploration](./COVID%20Data%20Exploration/) — End-to-end data pipeline from SQL to Tableau
 
-## 📂 Featured Portfolio Projects
+## Tech Stack
+- **Languages:** Python (Pandas, NumPy, SciPy), SQL, R
+- **Visualization:** Tableau, Matplotlib, Seaborn
+- **Tools:** MS SQL Server, Excel, Git/GitHub
 
-### 📊 [Domestic Flight Delay Analysis](https://github.com/chase-munson/Portfolio-Projects/tree/main/B.S.%20Capstone%20Project)
-**A deep dive into 30 million records to identify weather-driven trends.**
-* **Core Problem:** Investigating whether shifting global weather patterns are statistically increasing delays in the U.S. domestic flight market.
-* **Technical Highlights:** Performed comprehensive data cleaning and Pearson Correlation testing on a large 30m row dataset.
-* **Outcome:** Proved a statistically significant positive correlation between time and weather delays ($p < 0.05$), establishing a data-backed framework for predictive flight scheduling.
-
-### 🦠 [COVID-19 Data Exploration & Pipeline](https://github.com/chase-munson/Portfolio-Projects/tree/main/COVID%20Data%20Exploration)
-**An end-to-end study of the data analysis pipeline from SQL to Tableau.**
-* **The Challenge:** Demonstrating the technical workflow of migrating raw data from a relational database into a functional business intelligence tool.
-* **Technical Highlights:** Managed data ingestion into MS SQL Server, executed transformation queries in SSMS, and performed final data auditing in Excel.
-* **Outcome:** Developed an interactive Tableau dashboard providing a high-level view of global infection trends and mortality rates.
-* **Result:** [View Interactive Tableau Dashboard](https://public.tableau.com/views/COVIDDataExploration_17660107005600/COVIDDataExploration?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
----
-
-## 🛠 Technical Stack
-
-| Category | Proficiency |
-| :--- | :--- |
-| **Programming** | Python (Pandas, NumPy, SciPy), SQL (PostgreSQL, MySQL), R |
-| **Analysis** | Statistical Hypothesis Testing, Predictive Modeling, Big Data Foundations |
-| **Visualization** | Tableau, Seaborn, Matplotlib |
-| **DevOps & Cloud** | Git/GitHub, Version Control, Cloud Foundations (AWS), MLOps |
-
----
-
-## 🎓 Background & Professional Credentials
-My technical foundation was established through a **B.S. in Data Analytics** from Western Governors University. My project work is further supported by the following industry certifications:
-* **CompTIA Project+**
-* **AWS Certified Cloud Practitioner**
-* **CIW Data Analyst**
-* **Change Management Specialist (CMS)**
-* **Design Thinking Professional Certificate - DTPC®**
-
----
-
-## 📫 Let's Connect
-* **LinkedIn:** https://www.linkedin.com/in/chase-munson/
+## Connect
+[LinkedIn](https://www.linkedin.com/in/chase-munson/)
