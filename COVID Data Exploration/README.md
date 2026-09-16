@@ -1,34 +1,57 @@
 # COVID-19 Data Exploration & Pipeline
 
----
+## Overview
 
-## Project Overview
-
-This project demonstrates a complete data analysis pipeline — from raw relational database ingestion through to a published, interactive business intelligence dashboard. The goal was to showcase the technical workflow a data analyst uses to transform messy source data into clean, visual insights consumable by a non-technical audience.
+This project demonstrates a complete data analysis pipeline — from raw relational database ingestion through to a published, interactive business intelligence dashboard. Rather than focusing solely on complex queries, this project emphasizes the architectural process of data extraction, transformation, and visualization: the technical workflow a data analyst uses to turn messy source data into clean, visual insights a non-technical audience can act on.
 
 ---
 
-## Methodology & Key Findings
+## Technical Stack
 
-- **Data Ingestion:** Loaded raw COVID-19 datasets into MS SQL Server, establishing a structured relational schema for downstream querying.
-- **Transformation:** Executed a series of analytical SQL queries in SSMS to aggregate global case counts, calculate mortality rates, and identify regional infection trends.
-- **Auditing:** Performed final data validation and spot-checking in Excel to ensure query output accuracy before visualization.
-- **Outcome:** Produced an interactive Tableau dashboard providing a high-level view of global infection trends and mortality rates across countries and time.
-
-[View Interactive Tableau Dashboard](https://public.tableau.com/views/COVIDDataExploration_17660107005600/COVIDDataExploration?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
----
-
-## Tech Stack
-
-| Tool / Language | Purpose |
+| Category | Tool |
 |---|---|
-| MS SQL Server / SSMS | Data ingestion and analytical transformation |
-| Excel | Data auditing and validation |
-| Tableau | Interactive dashboard and final visualization |
+| **Database** | Microsoft SQL Server |
+| **Interface** | SQL Server Management Studio (SSMS) |
+| **Data Cleaning** | Microsoft Excel |
+| **Visualization** | Tableau |
 
 ---
 
-## Contact
+## Project Workflow
 
-**LinkedIn:** [linkedin.com/in/chase-munson](https://www.linkedin.com/in/chase-munson/)
+### 1. Data Acquisition & Ingestion
+Imported the **Our World in Data** COVID-19 dataset into a local Microsoft SQL Server development environment, with database schemas configured to ensure data integrity during the initial load.
+
+### 2. Data Transformation (SQL)
+Used SQL Server Management Studio to explore and filter the data, and developed queries to isolate the key metrics (deaths, infection rates, etc.) needed for the high-level visualizations.
+
+### 3. Data Cleaning & Final Adjustments
+Exported query results to Excel for final auditing, standardizing the dataset by handling NULL values (converted to 0) to keep calculations accurate downstream in the visualization software.
+
+### 4. Visualization & Reporting
+Loaded the cleaned dataset into Tableau and built a series of interactive visualizations, compiled into a final dashboard for stakeholder review.
+
+---
+
+## Results
+
+**[View Interactive Tableau Dashboard](https://public.tableau.com/views/COVIDDataExploration_17660107005600/COVIDDataExploration?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+
+![COVID-19 Dashboard Screenshot](https://github.com/chase-munson/Portfolio-Projects/blob/main/COVID%20Data%20Exploration/Tableau%20Tables/COVID%20Data%20Exploration.png)
+
+---
+
+## Data files
+
+`dataset/CovidDeaths.xlsx` and `dataset/CovidVaccinations.xlsx` (~9MB each) are the cleaned, exported datasets from step 3 of the workflow above — kept in the repo so the full pipeline is reproducible end to end, not just the final dashboard. Both are comfortably under GitHub's 100MB file limit.
+
+---
+
+## Credits & Resources
+
+- **Dataset:** [Our World in Data — Coronavirus (COVID-19) Deaths](https://ourworldindata.org/coronavirus)
+- **Learning pathway:** Alex the Analyst (SQL Data Exploration & Tableau Visualization series)
+
+---
+
+**Author:** Chase Munson

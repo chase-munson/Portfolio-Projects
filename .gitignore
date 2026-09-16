@@ -1,0 +1,41 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Visual Studio / SQL Server Management Studio project junk
+.vs/
+*.suo
+*.wsuo
+*.user
+
+# Jupyter
+.ipynb_checkpoints/
+
+# CTA Train Delay Analysis — defensive excludes for raw/large data.
+# These files don't belong in the repo (way over GitHub's size limits) —
+# this just guards against accidentally re-adding them later.
+CTA Train Delay Analysis/cta-delay-data-project.code-workspace
+CTA Train Delay Analysis/data/05 google_transit.zip
+CTA Train Delay Analysis/data/04 google_transit.zip
+CTA Train Delay Analysis/data/cta_data_05_2026.db
+CTA Train Delay Analysis/notebooks/cta_delays.db
+CTA Train Delay Analysis/data/CTA_-_Ridership_-_'L'_Station_Entries_-_Daily_Totals_20260403.csv
+CTA Train Delay Analysis/data/CTA_-_Ridership_-_'L'_Station_Entries_-_Monthly_Day-Type_Averages_&_Totals_20260403.csv
+CTA Train Delay Analysis/data/CTA_-_Ridership_-_Bus_Routes_-_Daily_Totals_by_Route_20260403.csv
+CTA Train Delay Analysis/data/cta_data_06_2026.db
+CTA Train Delay Analysis/data/cta_data_07_2026.db
+CTA Train Delay Analysis/data/cta_data_08_2026.db
+CTA Train Delay Analysis/data/cta_data_2026-04-15_to_2026-05-07.db
+CTA Train Delay Analysis/data/cta_train_tracker_data.csv
+CTA Train Delay Analysis/data/CTA_-_Ridership_-_Daily_Boarding_Totals_20260403.csv
+CTA Train Delay Analysis/data/CTA_-_Ridership_-_Bus_Routes_-_Monthly_Day-Type_Averages_&_Totals_20260403.csv
+CTA Train Delay Analysis/data/tableau_export/cta_train_approaches_2026-05_2026-08.csv
+CTA Train Delay Analysis/data/tableau_export/DATA_DICTIONARY.md

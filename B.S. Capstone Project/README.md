@@ -5,7 +5,7 @@
 
 ## Project Overview
 
-This project investigates whether shifting global weather patterns are statistically increasing delays in the U.S. domestic flight market. Working with a dataset of over 30 million flight records, the goal was to move beyond surface-level delay reporting and establish whether a measurable, time-dependent relationship exists between weather events and delay frequency — one strong enough to inform predictive scheduling frameworks.
+This project investigates whether shifting global weather patterns are statistically increasing delays in the U.S. domestic flight market. Working with a dataset of 30,132,672 flight records, the goal was to move beyond surface-level delay reporting and establish whether a measurable, time-dependent relationship exists between weather events and delay frequency — one strong enough to inform predictive scheduling frameworks.
 
 ---
 
