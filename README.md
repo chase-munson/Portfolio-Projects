@@ -11,7 +11,7 @@ Welcome to my personal portfolio! This repository is a curated collection of pro
 A deep dive into 30,132,672 flight records to identify weather-driven delay trends in the U.S. domestic flight market.
 - **Core problem:** investigating whether shifting global weather patterns are statistically increasing delays in the U.S. domestic flight market.
 - **Technical highlights:** comprehensive data cleaning and Pearson correlation testing on a 30M+ row dataset.
-- **Outcome:** established a statistically significant positive correlation between year and weather-attributed delay frequency (p < 0.05), providing a data-backed foundation for predictive flight scheduling models.
+- **Outcome:** found a statistically significant positive correlation between year and weather-attributed delay frequency (p < 0.05) — an early signal, not a conclusive or causal finding.
 
 ### [COVID-19 Data Exploration & Pipeline](./COVID%20Data%20Exploration/)
 An end-to-end study of the data analysis pipeline — from raw SQL ingestion to an interactive Tableau dashboard.
@@ -24,7 +24,7 @@ An end-to-end study of the data analysis pipeline — from raw SQL ingestion to 
 An end-to-end pipeline that captures live Chicago Transit Authority "L" train positions via a REST API and visualizes on-time performance trends across the system.
 - **The challenge:** the CTA exposes a live Train Tracker API but no ready-made on-time-performance dataset — the live feed has to be captured, stored, and rolled up into something analyzable.
 - **Technical highlights:** Python-based API ingestion running continuously on a cloud VM, SQLite storage with scheduled rotation, GTFS schedule tracking, and Power BI / Tableau dashboards.
-- **Outcome:** based on ~2 million observations, identified the Purple Line as the highest-delay line (2.01%) and Ashland/63rd as the highest-delay station (15.52%), surfaced through a filterable dashboard.
+- **Status:** still in the data collection phase — the pipeline is live and accumulating observations; delay analysis and dashboards are in progress, no results yet.
 
 ---
 
@@ -33,9 +33,9 @@ An end-to-end pipeline that captures live Chicago Transit Authority "L" train po
 | Category | Tools & Technologies |
 |---|---|
 | **Programming** | Python (Pandas, NumPy, SciPy), SQL (PostgreSQL, MySQL), R |
-| **Analysis** | Statistical Hypothesis Testing, Predictive Modeling, Big Data Foundations |
+| **Analysis** | Statistical Hypothesis Testing, Big Data Foundations |
 | **Visualization** | Tableau, Seaborn, Matplotlib |
-| **DevOps & Cloud** | Git/GitHub, Version Control, Cloud Foundations (AWS), MLOps |
+| **DevOps & Cloud** | Git/GitHub, Version Control, Cloud Foundations (AWS) |
 
 ---
 
@@ -47,10 +47,6 @@ An end-to-end pipeline that captures live Chicago Transit Authority "L" train po
 |---|
 | CompTIA Project+ |
 | AWS Certified Cloud Practitioner |
-| IBM SkillsBuild Data Analyst |
-| CIW Data Analyst |
-| Change Management Specialist (CMS) |
-| Design Thinking Professional Certificate (DTPC) |
 
 ---
 
