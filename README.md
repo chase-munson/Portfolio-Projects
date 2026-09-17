@@ -8,8 +8,8 @@ Welcome to my personal portfolio! This repository is a curated collection of pro
 ## Featured Projects
 
 ### [Domestic Flight Delay Analysis](./B.S.%20Capstone%20Project/)
-A deep dive into 30,132,672 flight records to identify weather-driven delay trends in the U.S. domestic flight market.
-- **Core problem:** investigating whether shifting global weather patterns are statistically increasing delays in the U.S. domestic flight market.
+A deep dive into 30M+ flight records to identify weather-driven delay trends in the U.S. domestic flight market.
+- **Core problem:** looking for a correlation between weather and flight delays, and whether the problem is getting worse over time.
 - **Technical highlights:** comprehensive data cleaning and Pearson correlation testing on a 30M+ row dataset.
 - **Outcome:** found a statistically significant positive correlation between year and weather-attributed delay frequency (p < 0.05) — an early signal, not a conclusive or causal finding.
 
@@ -23,7 +23,7 @@ An end-to-end study of the data analysis pipeline — from raw SQL ingestion to 
 ### [CTA "L" Train Delay Data Pipeline](./CTA%20Train%20Delay%20Analysis/)
 An end-to-end pipeline that captures live Chicago Transit Authority "L" train positions via a REST API and visualizes on-time performance trends across the system.
 - **The challenge:** the CTA exposes a live Train Tracker API but no ready-made on-time-performance dataset — the live feed has to be captured, stored, and rolled up into something analyzable.
-- **Technical highlights:** Python-based API ingestion running continuously on a cloud VM, SQLite storage with scheduled rotation, GTFS schedule tracking, and Power BI / Tableau dashboards.
+- **Technical highlights:** Python-based API ingestion running continuously on a cloud VM, SQLite storage with scheduled rotation, and GTFS schedule data being pulled (not yet incorporated into the analysis).
 - **Status:** still in the data collection phase — the pipeline is live and accumulating observations; delay analysis and dashboards are in progress, no results yet.
 
 ---
